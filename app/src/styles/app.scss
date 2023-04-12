@@ -1,6 +1,33 @@
 @import '_variables';
 
-p {
-    font: 100% $font-stack;
-    color: $primary-color;
+body {
+    width: auto;
+    height: auto;
+    text-align: center;
+    
+    h1 {
+        background-image: linear-gradient(270deg, violet, indigo, blue, green, yellow, orange, red);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text; 
+    }
+
+    div {
+        margin-block-start: 20px;
+        margin-block-end: 20px;
+    }
+
+    p {
+        font: 100% $font-stack;
+        color: $primary-color;
+    }
+
+    input {
+        width: 25%;
+        display:inline-block;
+        padding:15px 10px;
+        line-height:140%;
+    }
+
+    
 }
