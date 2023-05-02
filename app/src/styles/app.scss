@@ -17,14 +17,15 @@ body {
         margin-block-end: 20px;
     }
 
-    p {
+    pre {
         font: 100% $font-stack;
         color: $primary-color;
+        line-height: 150%
     }
 
     input {
         width: 25%;
-        display:inline-block;
+        display: inline-block;
         padding:15px 10px;
         line-height:140%;
     }
